@@ -1,1 +1,1 @@
-Shell basics readme
+This repo contains shell basics script
