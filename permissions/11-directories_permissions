@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+x */ -v
+for dir in * do if [ -d "$dir" ] then chmod +x "$dir" fi done
