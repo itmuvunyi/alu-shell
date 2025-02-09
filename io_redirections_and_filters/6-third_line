@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "First line\nSecond line\nThird line\nFourth line\nFifth line" > iacta
+awk 'NR==3' iacta
