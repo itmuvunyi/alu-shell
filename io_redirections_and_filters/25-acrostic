@@ -1,2 +1,0 @@
-#!/bin/bash
-while IFS= read -r line; do printf "%c" "$line"; done; printf "\n"
