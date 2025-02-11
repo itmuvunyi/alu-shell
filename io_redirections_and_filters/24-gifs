@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" -printf "%f\n" | cut -d. -f1 | sort -f
+find . -type f -name "*.gif" -exec sh -c 'basename "$1" .gif' _ {} \| sort -f
